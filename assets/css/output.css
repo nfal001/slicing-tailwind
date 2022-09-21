@@ -645,6 +645,10 @@ video {
   width: 18rem;
 }
 
+.w-\[210px\] {
+  width: 210px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -721,6 +725,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
