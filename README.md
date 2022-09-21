@@ -1,0 +1,2 @@
+# slicing-tailwind
+ pake tailwind
