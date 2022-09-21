@@ -617,20 +617,16 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -649,32 +645,12 @@ video {
   width: 18rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.max-w-xs {
-  max-width: 20rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-sm {
-  max-width: 24rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
 
-.max-w-\[445px\] {
-  max-width: 445px;
-}
-
-.max-w-\[1000px\] {
-  max-width: 1000px;
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-\[982px\] {
@@ -738,11 +714,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -756,21 +727,6 @@ video {
   text-align: center;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -780,8 +736,31 @@ video {
   line-height: 2rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-\[32px\] {
   font-size: 32px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
 }
 
 .font-bold {
@@ -800,17 +779,27 @@ video {
   font-weight: 500;
 }
 
-.leading-7 {
-  line-height: 1.75rem;
-}
-
 .leading-\[60px\] {
   line-height: 60px;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.text-pink-300 {
+  --tw-text-opacity: 1;
+  color: rgb(249 168 212 / var(--tw-text-opacity));
 }
 
 .drop-shadow-md {
@@ -820,6 +809,7 @@ video {
 
 body {
   font-family: "poppins", monospace;
+  color: #343A40;
 }
 
 @media (min-width: 640px) {
@@ -833,10 +823,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
